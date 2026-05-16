@@ -1,6 +1,7 @@
 import { Outlet, Link, useLocation } from "react-router";
 import { Menu, X, Mail, Phone } from "lucide-react";
 import { useState } from "react";
+import logo from "@/assets/logo.png";
 
 export function Layout() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -9,35 +10,48 @@ export function Layout() {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <div className="min-h-screen flex flex-col bg-white">
-
+    <div className="min-h-screen flex flex-col bg-background">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
-         {/* Top CTA Bar */}
-      <div className="bg-slate-900 text-white py-2">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row justify-center sm:justify-end items-center gap-3 sm:gap-6 text-sm">
-            <a href="mailto:info@yiwulafatik.com" className="flex items-center gap-2 hover:text-secondary transition-colors">
-              <Mail size={16} />
-              <span>info@yiwulafatik.com</span>
-            </a>
-            <a href="tel:+8613012345678" className="flex items-center gap-2 hover:text-secondary transition-colors">
-              <Phone size={16} />
-              <span>+86 130 1234 5678</span>
-            </a>
+      <header className="sticky top-0 z-50 bg-background/90 backdrop-blur border-b border-border shadow-sm">
+        {/* Top CTA Bar */}
+        <div className="bg-primary text-primary-foreground py-2">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-col sm:flex-row justify-center sm:justify-end items-center gap-3 sm:gap-6 text-sm">
+              <a
+                href="mailto:lafatiklogistic@gmail.com"
+                className="flex items-center gap-2 hover:text-primary-foreground/80 transition-colors"
+              >
+                <Mail size={16} />
+                <span>lafatiklogistic@gmail.com</span>
+              </a>
+              <a
+                href="tel:+8615342747516"
+                className="flex items-center gap-2 hover:text-primary-foreground/80 transition-colors"
+              >
+                <Phone size={16} />
+                <span>+86 153 4274 7516</span>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-primary rounded flex items-center justify-center">
-                <span className="text-white font-bold text-xl">YL</span>
+              <div className="w-12 h-12 rounded flex items-center justify-center overflow-hidden">
+                <img
+                  src={logo}
+                  alt="Yiwu Lafatik Trade Co., Ltd logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div className="flex flex-col">
-                <span className="font-semibold text-foreground">Yiwu Lafatik Trade Co., Ltd</span>
-                <span className="text-xs text-muted-foreground hidden sm:block">Timor-Leste • China</span>
+                <span className="font-semibold text-foreground">
+                  Yiwu Lafatik Trade Co., Ltd
+                </span>
+                <span className="text-xs text-muted-foreground hidden sm:block">
+                  Timor-Leste • China
+                </span>
               </div>
             </Link>
 
@@ -46,7 +60,9 @@ export function Layout() {
               <Link
                 to="/"
                 className={`transition-colors ${
-                  isActive("/") ? "text-primary" : "text-foreground hover:text-primary"
+                  isActive("/")
+                    ? "text-primary"
+                    : "text-foreground hover:text-primary"
                 }`}
               >
                 Home
@@ -54,7 +70,9 @@ export function Layout() {
               <Link
                 to="/about"
                 className={`transition-colors ${
-                  isActive("/about") ? "text-primary" : "text-foreground hover:text-primary"
+                  isActive("/about")
+                    ? "text-primary"
+                    : "text-foreground hover:text-primary"
                 }`}
               >
                 About
@@ -62,17 +80,19 @@ export function Layout() {
               <Link
                 to="/team"
                 className={`transition-colors ${
-                  isActive("/team") ? "text-primary" : "text-foreground hover:text-primary"
+                  isActive("/team")
+                    ? "text-primary"
+                    : "text-foreground hover:text-primary"
                 }`}
               >
                 Team
               </Link>
-              <a
+              {/* <a
                 href="#contact"
-                className="bg-primary text-white px-6 py-2.5 rounded-lg hover:bg-primary/90 transition-colors"
+                className="bg-primary text-primary-foreground px-6 py-2.5 rounded-lg hover:bg-primary/90 transition-colors"
               >
                 Contact Us
-              </a>
+              </a> */}
             </div>
 
             {/* Mobile Menu Button */}
@@ -92,7 +112,9 @@ export function Layout() {
                 <Link
                   to="/"
                   className={`px-4 py-2 rounded ${
-                    isActive("/") ? "bg-primary/10 text-primary" : "text-foreground"
+                    isActive("/")
+                      ? "bg-primary/10 text-primary"
+                      : "text-foreground"
                   }`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
@@ -101,7 +123,9 @@ export function Layout() {
                 <Link
                   to="/about"
                   className={`px-4 py-2 rounded ${
-                    isActive("/about") ? "bg-primary/10 text-primary" : "text-foreground"
+                    isActive("/about")
+                      ? "bg-primary/10 text-primary"
+                      : "text-foreground"
                   }`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
@@ -110,7 +134,9 @@ export function Layout() {
                 <Link
                   to="/team"
                   className={`px-4 py-2 rounded ${
-                    isActive("/team") ? "bg-primary/10 text-primary" : "text-foreground"
+                    isActive("/team")
+                      ? "bg-primary/10 text-primary"
+                      : "text-foreground"
                   }`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
@@ -118,7 +144,7 @@ export function Layout() {
                 </Link>
                 <a
                   href="#contact"
-                  className="bg-primary text-white px-4 py-2.5 rounded-lg text-center"
+                  className="bg-primary text-primary-foreground px-4 py-2.5 rounded-lg text-center"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Contact Us
@@ -135,29 +161,35 @@ export function Layout() {
       </main>
 
       {/* Footer */}
-      <footer id="contact" className="bg-slate-900 text-white">
+      <footer id="contact" className="bg-primary text-primary-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Company Info */}
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-primary rounded flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">YL</span>
+                <div className="w-12 h-12 rounded flex items-center justify-center overflow-hidden">
+                  <img
+                    src={logo}
+                    alt="Yiwu Lafatik Trade Co., Ltd logo"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
-                <span className="font-semibold">Yiwu Lafatik Trade Co., Ltd</span>
+                <span className="font-semibold">
+                  Yiwu Lafatik Trade Co., Ltd
+                </span>
               </div>
-              <p className="text-slate-300 text-sm leading-relaxed">
-                First Trade Company of Timor-Leste in China. Connecting businesses to global trade opportunities.
+              <p className="text-muted-background text-sm leading-relaxed">
+                First Trade Company of Timor-Leste in China. Connecting
+                businesses to global trade opportunities.
               </p>
             </div>
 
             {/* Contact Info */}
             <div>
               <h3 className="font-semibold mb-4">Contact</h3>
-              <div className="space-y-2 text-sm text-slate-300">
+              <div className="space-y-2 text-sm text-muted-background">
                 <p>📍 Yiwu, Zhejiang, China</p>
-                <p>📍 Dili, Timor-Leste</p>
-                <p>✉️ info@yiwulafatik.com</p>
+                <p>✉️ lafatiklogistic@gmail.com</p>
               </div>
             </div>
 
@@ -166,33 +198,38 @@ export function Layout() {
               <h3 className="font-semibold mb-4">Follow Us</h3>
               <div className="flex gap-4">
                 <a
-                  href="#"
-                  className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors"
-                  aria-label="Facebook"
-                >
-                  {/* <Facebook size={20} /> */}
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors"
+                  href="https://www.instagram.com/lafatiktrade_logistics"
+                  className="w-10 h-10 bg-secondary/10 rounded-lg flex items-center justify-center hover:bg-primary/20 transition-colors"
                   aria-label="Instagram"
                 >
-                  {/* <Instagram size={20} /> */}
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" />
+                  </svg>
                 </a>
                 <a
-                  href="#"
-                  className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors"
+                  href="https://www.tiktok.com/@lafatiklogistics"
+                  className="w-10 h-10 bg-secondary/10 rounded-lg flex items-center justify-center hover:bg-primary/20 transition-colors"
                   aria-label="TikTok"
                 >
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
                   </svg>
                 </a>
               </div>
             </div>
           </div>
 
-          <div className="border-t border-slate-700 mt-8 pt-8 text-center text-sm text-slate-400">
+          <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-background">
             <p>&copy; 2026 Yiwu Lafatik Trade Co., Ltd. All rights reserved.</p>
           </div>
         </div>

@@ -12,11 +12,11 @@ i18n
         interpolation: {
             escapeValue: false, // react already safes from xss
         },
-        supportedLngs: ["en", "id", "pt", "cn"],
+        supportedLngs: ["en", "tet", "pt"],
         backend: {
             loadPath: "/locales/{{ns}}/{{lng}}/translation.json", // locale files path
         },
-        fallbackLng: ["en", "id", "pt", "cn"],
+        fallbackLng: ["en", "tet", "pt"],
         defaultNS: "common"
     });
 export default i18n;

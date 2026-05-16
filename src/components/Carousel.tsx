@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export type CarouselItem = {
@@ -43,25 +43,42 @@ export function Carousel({
 }: CarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const hasMultiple = items.length > 1;
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
-  useEffect(() => {
+  const clearAutoAdvance = () => {
+    if (intervalRef.current) {
+      clearInterval(intervalRef.current);
+      intervalRef.current = null;
+    }
+  };
+
+  const startAutoAdvance = () => {
     if (!intervalMs || !hasMultiple) {
       return;
     }
 
-    const timer = setInterval(() => {
+    clearAutoAdvance();
+    intervalRef.current = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % items.length);
     }, intervalMs);
+  };
 
-    return () => clearInterval(timer);
+  useEffect(() => {
+    startAutoAdvance();
+
+    return () => {
+      clearAutoAdvance();
+    };
   }, [hasMultiple, intervalMs, items.length]);
 
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + 1) % items.length);
+    startAutoAdvance();
   };
 
   const prevSlide = () => {
     setCurrentIndex((prev) => (prev - 1 + items.length) % items.length);
+    startAutoAdvance();
   };
 
   return (

@@ -57,174 +57,106 @@
 			}
 		},
 		"catalogue": {
-			"title": "Product Catalogue",
-			"subtitle": "Popular import & export categories",
+			"title": "Business Scopes",
+			"subtitle": "Core industries we serve",
 			"requestQuote": "Request Quote",
-			"electronics": {
-				"name": "Electronics",
+			"agriculture": {
+				"name": "Agricultural Equipments",
 				"items": [
 					{
-						"title": "Laptop Computers",
-						"description": "High-performance laptops for business and personal use"
+						"title": "Tractors & Implements",
+						"description": "Reliable equipment for land preparation and crop work"
 					},
 					{
-						"title": "LED Monitors",
-						"description": "Professional-grade displays in various sizes"
+						"title": "Irrigation Systems",
+						"description": "Drip, sprinkler, and pump solutions for efficient watering"
 					},
 					{
-						"title": "Computer Accessories",
-						"description": "Keyboards, mice, webcams, and more"
+						"title": "Post-Harvest Tools",
+						"description": "Drying, sorting, and storage support for better yields"
 					}
 				]
 			},
-			"textiles": {
-				"name": "Textiles & Apparel",
+			"industrial": {
+				"name": "Industrial Machinaries",
 				"items": [
 					{
-						"title": "T-Shirts & Casual Wear",
-						"description": "Quality cotton and polyester blend clothing"
+						"title": "Processing Lines",
+						"description": "Equipment for food, materials, and light manufacturing"
 					},
 					{
-						"title": "Uniforms",
-						"description": "Corporate and school uniforms, custom designs available"
+						"title": "Metalworking Tools",
+						"description": "Cutting, shaping, and fabrication machinery"
 					},
 					{
-						"title": "Fabric & Textiles",
-						"description": "Wholesale fabric rolls for manufacturing"
+						"title": "Packaging Machines",
+						"description": "Automated packing and labeling for production lines"
 					}
 				]
 			},
-			"building": {
-				"name": "Building Materials",
+			"transportation": {
+				"name": "Transportation Vehicles",
 				"items": [
 					{
-						"title": "Steel & Metal Products",
-						"description": "Construction-grade steel beams and sheets"
+						"title": "Light Duty Trucks",
+						"description": "Last-mile and regional delivery vehicles"
 					},
 					{
-						"title": "Cement & Concrete",
-						"description": "High-quality cement for construction projects"
+						"title": "Commercial Buses",
+						"description": "Passenger transport for urban and intercity routes"
 					},
 					{
-						"title": "Plumbing Supplies",
-						"description": "Pipes, fittings, and sanitary equipment"
+						"title": "Specialized Fleet",
+						"description": "Refrigerated, utility, and custom service vehicles"
 					}
 				]
 			},
-			"food": {
-				"name": "Food Products",
+			"medicalDevices": {
+				"name": "Medical Devices",
 				"items": [
 					{
-						"title": "Rice & Grains",
-						"description": "Premium quality rice and grain products"
+						"title": "Diagnostic Equipment",
+						"description": "Ultrasound, monitoring, and lab diagnostics"
 					},
 					{
-						"title": "Canned Goods",
-						"description": "Long-shelf-life canned food products"
+						"title": "Patient Care Devices",
+						"description": "Beds, mobility aids, and hospital room essentials"
 					},
 					{
-						"title": "Cooking Oil",
-						"description": "Various types of cooking and vegetable oils"
+						"title": "Sterilization Systems",
+						"description": "Autoclaves and hygiene equipment for clinics"
 					}
 				]
 			},
-			"medical": {
-				"name": "Medical Supplies",
+			"cleanEnergy": {
+				"name": "Clean Energy Items",
 				"items": [
 					{
-						"title": "Personal Protective Equipment",
-						"description": "Masks, gloves, and protective gear"
+						"title": "Solar Panels",
+						"description": "High-efficiency modules for homes and facilities"
 					},
 					{
-						"title": "Medical Instruments",
-						"description": "Professional medical diagnostic tools"
+						"title": "Energy Storage",
+						"description": "Battery banks and inverters for stable power"
 					},
 					{
-						"title": "First Aid Supplies",
-						"description": "Complete first aid kits and components"
-					}
-				]
-			},
-			"furniture": {
-				"name": "Furniture",
-				"items": [
-					{
-						"title": "Office Furniture",
-						"description": "Desks, chairs, and office storage solutions"
-					},
-					{
-						"title": "Home Furniture",
-						"description": "Sofas, beds, and dining sets"
-					},
-					{
-						"title": "Outdoor Furniture",
-						"description": "Weather-resistant patio and garden furniture"
-					}
-				]
-			},
-			"lighting": {
-				"name": "Lighting & Electrical",
-				"items": [
-					{
-						"title": "LED Lighting",
-						"description": "Energy-efficient LED bulbs and fixtures"
-					},
-					{
-						"title": "Electrical Cables",
-						"description": "Various types of wiring and cables"
-					},
-					{
-						"title": "Switches & Sockets",
-						"description": "Electrical switches and power outlets"
-					}
-				]
-			},
-			"auto": {
-				"name": "Auto Parts",
-				"items": [
-					{
-						"title": "Engine Parts",
-						"description": "Replacement engine components and accessories"
-					},
-					{
-						"title": "Tires & Wheels",
-						"description": "Various sizes of tires and wheel rims"
-					},
-					{
-						"title": "Car Accessories",
-						"description": "Interior and exterior car accessories"
-					}
-				]
-			},
-			"mobile": {
-				"name": "Mobile Accessories",
-				"items": [
-					{
-						"title": "Phone Cases & Covers",
-						"description": "Protective cases for all phone models"
-					},
-					{
-						"title": "Chargers & Cables",
-						"description": "Fast charging cables and adapters"
-					},
-					{
-						"title": "Screen Protectors",
-						"description": "Tempered glass and film protectors"
+						"title": "Efficient Lighting",
+						"description": "LED and smart controls to reduce energy use"
 					}
 				]
 			}
 		},
 		"office": {
 			"title": "Our Office",
-			"body": "We operate from strategic locations in both Yiwu, China, and Dili, Timor-Leste. Our dual presence allows us to provide unparalleled service, understanding both markets deeply and facilitating smooth trade operations between the two nations.",
+			"body": "We operate from strategic locations in Yiwu, China, with 2 warehouses in Yiwu and Guangzhou. Our presence in China allows us to provide unparalleled service, understanding Chinese market deeply while facilitating smooth trade operations between the two nations. Our warehouse team brings over 10 years of packing experience, plans distribution from cargo lists to maximize container use, and weighs each item and the full container to meet shipping limits.",
 			"locations": {
 				"china": {
 					"title": "China Office",
 					"body": "Yiwu, Zhejiang Province"
 				},
-				"timor": {
-					"title": "Timor-Leste Office",
-					"body": "Dili"
+				"warehouse": {
+					"title": "China Warehouse",
+					"body": "Yiwu, Zhejiang Province & \nGuangzhou, Guangdong Province"
 				}
 			},
 			"imageAlt": "Port and logistics"
@@ -232,25 +164,113 @@
 		"government": {
 			"title": "Collaborating with Government",
 			"subtitle": "Supporting public sector initiatives through reliable sourcing and logistics",
+			"images": {
+				"1": {
+					"alt": "With Timor Leste Ambassador in Beijing"
+				},
+				"2": {
+					"alt": "With Timor Leste's Delegate of Commerce in Beijing"
+				},
+				"3": {
+					"alt": "With Deputy of Community of Portuguese Language Countries in Macao"
+				},
+				"4": {
+					"alt": "With Delegate of Commerce in Macao"
+				}
+			}
+		},
+		"qualityCheck": {
+			"title": "Quality Check",
+			"body": "One key reason we operate in China is to inspect and verify product quality before shipping.",
 			"images": [
 				{
-					"alt": "Government and business meeting"
+					"alt": "Quality check on packaged goods"
 				},
 				{
-					"alt": "Strategic planning session"
+					"alt": "Inspection of product samples"
 				},
 				{
-					"alt": "Team coordination with officials"
-				},
-				{
-					"alt": "Official documents and workspace"
+					"alt": "Team reviewing product quality"
 				}
 			]
 		},
 		"partners": {
-			"title": "Trusted by Leading Organizations",
-			"subtitle": "Working with government agencies and businesses across Timor-Leste",
-			"partner": "Partner {{index}}"
+			"title": "Organizational Structure",
+			"subtitle": "Chinese supply chain companies",
+			"companies": [
+				{
+					"name": "Yiwu Jinjia Supply Chain Co., Ltd",
+					"description": "International Logistics in China"
+				},
+				{
+					"name": "Yiwu Lafatik Trade Co., Ltd",
+					"description": "Timor Leste Trade Company in China"
+				},
+				{
+					"name": "Fortuna Trade",
+					"description": "International Logistics; Consignee & Receiver in China"
+				},
+				{
+					"name": "Tiange International Logistics Co., Ltd",
+					"description": "International Logistics in China"
+				}
+			]
 		}
+	},
+	"about": {
+		"hero": {
+			"title": "About Us",
+			"subtitle": "Yiwu Lafatik Trade Co., Ltd is pioneering trade relations between Timor-Leste and China, committed to facilitating seamless international commerce and logistics solutions."
+		},
+		"whoWeAre": {
+			"title": "Who We Are",
+			"paragraphs": [
+				"Established as the first trade company from Timor-Leste in China, Yiwu Lafatik Trade Co., Ltd represents a historic milestone in bilateral trade relations between our nations. We are headquartered in Yiwu, the world's largest wholesale market, with operations extending to Guangzhou and also Timor-Leste.",
+				"Our company was founded on the principle that strong trade partnerships can transform economies and create opportunities for businesses of all sizes. We specialize in connecting small and medium enterprises (UMKM) in Timor-Leste with manufacturers and suppliers in China, while also serving larger corporations and government agencies.",
+				"With deep understanding of both Chinese and Timorese markets, we navigate cultural nuances, language barriers, and regulatory requirements to ensure smooth transactions and timely deliveries. Our team brings together expertise in international trade, logistics, customs clearance, and supply chain management."
+			]
+		},
+		"vision": {
+			"title": "Our Vision",
+			"body": "To become the leading international trade and logistics gateway connecting Timor-Leste with ASEAN and the world, promoting fair global trade, diversification of the Timor-Leste economy"
+		},
+		"mission": {
+			"title": "Our Mission",
+			"body": "Build a strong trade bridge between China and Timor-Leste, supporting economic growth through professional logistics, reliable import-export services, especially for the SME's"
+		},
+		"values": {
+			"title": "Our Core Values",
+			"items": {
+				"integrity": {
+					"title": "Integrity",
+					"body": "Operating with honesty, accountability, and ethical practices"
+				},
+				"professionalism": {
+					"title": "Professionalism",
+					"body": "Delivering reliable service with respect and discipline"
+				},
+				"innovation": {
+					"title": "Innovation",
+					"body": "Continuously improving how we serve our partners"
+				},
+				"commitmentToCountry": {
+					"title": "Commitment to Country",
+					"body": "Supporting Timor-Leste through responsible trade and growth"
+				}
+			}
+		}
+	},
+	"team": {
+		"hero": {
+			"title": "Our Team",
+			"subtitle": "Meet the dedicated professionals driving our mission to connect Timor-Leste with global trade opportunities."
+		},
+		"members": [
+			{
+				"name": "Francisca Freitas Sang (Right) & \nConidia Gabriela da Silva (Left)",
+				"role": "Chief Executive Officer (CEO) & General Manager",
+				"bio": "Leading Yiwu Lafatik Trade Co., Ltd with over 5 years of experience in international trade and business development."
+			}
+		]
 	}
 }
