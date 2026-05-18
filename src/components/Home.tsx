@@ -6,7 +6,6 @@ import {
   Warehouse,
   CheckCircle,
   Globe,
-  ChevronDown,
   X,
 } from "lucide-react";
 import {
@@ -20,7 +19,7 @@ import { Carousel } from "@/components/Carousel";
 
 export function Home() {
   const { t } = useTranslation();
-  const [expandedCategory, setExpandedCategory] = useState<string | null>(null);
+  // const [expandedCategory, setExpandedCategory] = useState<string | null>(null);
   const [selectedItem, setSelectedItem] = useState<{
     categoryId: string;
     item: any;
@@ -245,9 +244,9 @@ export function Home() {
                 return (
                   <div key={category.id} className="col-span-2 sm:col-span-1">
                     <button
-                      onClick={() =>
-                        setExpandedCategory(isExpanded ? null : category.id)
-                      }
+                      // onClick={() =>
+                      //   setExpandedCategory(isExpanded ? null : category.id)
+                      // }
                       className="w-full bg-white rounded-lg shadow-sm border border-border hover:shadow-md transition-shadow text-center"
                     >
                       <div className="w-full aspect-[9/16] rounded-t-lg overflow-hidden mb-3">
