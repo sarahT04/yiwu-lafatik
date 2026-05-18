@@ -1,4 +1,11 @@
-import { Target, Eye, ShieldCheck, Briefcase, Lightbulb, Flag } from "lucide-react";
+import {
+  Target,
+  Eye,
+  ShieldCheck,
+  Briefcase,
+  Lightbulb,
+  Flag,
+} from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export function About() {
@@ -56,8 +63,8 @@ export function About() {
             </div>
 
             <div className="bg-white rounded-lg p-8 md:p-10 shadow-sm border border-border">
-              <div className="w-14 h-14 bg-secondary/10 rounded-lg flex items-center justify-center mb-6">
-                <Target className="text-secondary" size={28} />
+              <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6">
+                <Target className="text-primary" size={28} />
               </div>
               <h2 className="text-2xl md:text-3xl mb-4">
                 {t("about.mission.title")}
@@ -81,7 +88,9 @@ export function About() {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <ShieldCheck className="text-primary" size={32} />
               </div>
-              <h3 className="mb-2">{t("about.values.items.integrity.title")}</h3>
+              <h3 className="mb-2">
+                {t("about.values.items.integrity.title")}
+              </h3>
               <p className="text-muted-foreground">
                 {t("about.values.items.integrity.body")}
               </p>
@@ -103,7 +112,9 @@ export function About() {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Lightbulb className="text-primary" size={32} />
               </div>
-              <h3 className="mb-2">{t("about.values.items.innovation.title")}</h3>
+              <h3 className="mb-2">
+                {t("about.values.items.innovation.title")}
+              </h3>
               <p className="text-muted-foreground">
                 {t("about.values.items.innovation.body")}
               </p>

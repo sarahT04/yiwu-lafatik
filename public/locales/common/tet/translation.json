@@ -1,0 +1,10 @@
+{
+	"notFound": {
+		"label": "Erru 404",
+		"title": "Pagina la hetan",
+		"subtitle": "Pagina ida ne'e muda, lakon, ka la iha.",
+		"body": "Haree enderesu ka fila ba pajina prinsipiu.",
+		"homeCta": "Fila ba Uma",
+		"backCta": "Fila fali"
+	}
+}

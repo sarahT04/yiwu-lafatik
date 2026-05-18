@@ -1,0 +1,10 @@
+{
+	"notFound": {
+		"label": "Erro 404",
+		"title": "Pagina nao encontrada",
+		"subtitle": "Esta pagina foi movida, desapareceu ou nunca existiu.",
+		"body": "Verifique o endereco ou volte para a pagina inicial.",
+		"homeCta": "Voltar para inicio",
+		"backCta": "Voltar"
+	}
+}

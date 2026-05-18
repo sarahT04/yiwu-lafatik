@@ -5,7 +5,7 @@ type Image = {
 };
 
 // Office Image: 5 Images
-const officeImages: readonly [Image, Image, Image, Image, Image] = [
+const officeImages: readonly [Image, Image, Image, Image, Image, Image, Image, Image] = [
   {
     src: "https://ik.imagekit.io/yiwulafatik/office/1.jpg",
     alt: "Inside of our office",
@@ -16,19 +16,19 @@ const officeImages: readonly [Image, Image, Image, Image, Image] = [
     alt: "Inside of our office",
     aspectRatio: "4/3"
   },
-  // {
-  //   src: "https://ik.imagekit.io/yiwulafatik/office/3.jpg",
-  //   alt: "Inside of our office",
-  //   aspectRatio: "4/3"
-  // },
+  {
+    src: "https://ik.imagekit.io/yiwulafatik/office/3.png",
+    alt: "Our goods",
+    aspectRatio: "4/3"
+  },
   {
     src: "https://ik.imagekit.io/yiwulafatik/office/4.jpg",
     alt: "Inside of our office",
     aspectRatio: "4/3"
   },
   {
-    src: "https://ik.imagekit.io/yiwulafatik/office/5.jpg",
-    alt: "Inside of our office",
+    src: "https://ik.imagekit.io/yiwulafatik/office/5.png",
+    alt: "Our goods",
     aspectRatio: "4/3"
   },
   {
@@ -36,16 +36,16 @@ const officeImages: readonly [Image, Image, Image, Image, Image] = [
     alt: "Inside of our office",
     aspectRatio: "4/3"
   },
-  // {
-  //   src: "https://ik.imagekit.io/yiwulafatik/office/7.jpg",
-  //   alt: "Inside of our office",
-  //   aspectRatio: "4/3"
-  // },
-  // {
-  //   src: "https://ik.imagekit.io/yiwulafatik/office/8.jpg",
-  //   alt: "Inside of our office",
-  //   aspectRatio: "4/3"
-  // },
+  {
+    src: "https://ik.imagekit.io/yiwulafatik/office/7.png",
+    alt: "Our goods",
+    aspectRatio: "4/3"
+  },
+  {
+    src: "https://ik.imagekit.io/yiwulafatik/office/8.jpg",
+    alt: "Inside of our office",
+    aspectRatio: "4/3"
+  },
   // {
   //   src: "https://ik.imagekit.io/yiwulafatik/office/9.jpg",
   //   alt: "Inside of our office",
@@ -105,7 +105,7 @@ const whoWeAreImages: [Image, Image, Image, Image, Image, Image] = [
     aspectRatio: "4/3"
   },
   {
-    src: "https://ik.imagekit.io/yiwulafatik/who%20we%20are/2.jpg?updatedAt=1778667004900",
+    src: "https://ik.imagekit.io/yiwulafatik/who%20we%20are/2r.jpg",
     alt: "Our CEO in the Office",
     aspectRatio: "4/3"
   },
@@ -115,12 +115,12 @@ const whoWeAreImages: [Image, Image, Image, Image, Image, Image] = [
     aspectRatio: "4/3"
   },
   {
-    src: "https://ik.imagekit.io/yiwulafatik/who%20we%20are/4.jpg?updatedAt=1778666928714",
+    src: "https://ik.imagekit.io/yiwulafatik/who%20we%20are/4r.jpg",
     alt: "Our CEO in the Office",
     aspectRatio: "4/3"
   },
   {
-    src: "https://ik.imagekit.io/yiwulafatik/who%20we%20are/5.jpg",
+    src: "https://ik.imagekit.io/yiwulafatik/who%20we%20are/5r.jpg",
     alt: "In Alibaba",
     aspectRatio: "4/3"
   },

@@ -26,7 +26,7 @@
 		],
 		"whoWeAre": {
 			"title": "Who We Are",
-			"body": "Yiwu Lafatik Trade Co., Ltd is <highlight>the first trade company</highlight> from Timor-Leste established in China. We specialize in connecting businesses in Timor-Leste with manufacturers and suppliers in China, providing comprehensive logistics and trade solutions.",
+			"body": "Yiwu Lafatik Trade Co., Ltd is <highlight>the first trade company</highlight> from Timor-Leste established in China. We specialize in connecting businesses in Timor-Leste with manufacturers and suppliers in China, providing comprehensive logistics and trade solutions. The company actively planning import business, helping various local products, specialty goods and agricultural commodities sourced from Timor-Leste to enter and circulate in the Chinese market, realizing two-way bilateral trade circulation between the two countries.",
 			"cards": {
 				"reliability": {
 					"title": "Reliability",
@@ -272,5 +272,13 @@
 				"bio": "Leading Yiwu Lafatik Trade Co., Ltd with over 5 years of experience in international trade and business development."
 			}
 		]
+	},
+	"notFound": {
+		"label": "404 Error",
+		"title": "Page Not Found",
+		"subtitle": "This page moved, vanished, or never existed.",
+		"body": "Check the address or return to the homepage to continue.",
+		"homeCta": "Back to Home",
+		"backCta": "Go Back"
 	}
 }

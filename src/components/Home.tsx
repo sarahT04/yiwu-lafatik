@@ -240,7 +240,7 @@ export function Home() {
 
             <div className="grid grid-cols-2 sm:grid-cols-5 lg:grid-cols-5 gap-4">
               {catalogueData.map((category) => {
-                const isExpanded = expandedCategory === category.id;
+                const isExpanded = false // expandedCategory === category.id;
 
                 return (
                   <div key={category.id} className="col-span-2 sm:col-span-1">
@@ -260,10 +260,10 @@ export function Home() {
                       </div>
                       <div className="flex items-center justify-center gap-2 pt-1 pb-3">
                         <h4 className="text-sm">{t(category.nameKey)}</h4>
-                        <ChevronDown
+                        {/* <ChevronDown
                           className={`text-muted-foreground transition-transform ${isExpanded ? "rotate-180" : ""}`}
                           size={16}
-                        />
+                        /> */}
                       </div>
                     </button> 
 
