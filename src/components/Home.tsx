@@ -302,7 +302,7 @@ export function Home() {
                   <button
                     onClick={() => setSelectedItem(null)}
                     className="absolute top-4 right-4 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
-                    aria-label="Close"
+                    aria-label={t("common.close")}
                   >
                     <X size={20} />
                   </button>

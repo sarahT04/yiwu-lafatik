@@ -7,7 +7,7 @@ import logo from "@/assets/logo.png";
 export function Layout() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   const isActive = (path: string) => location.pathname === path;
 
@@ -86,7 +86,7 @@ export function Layout() {
                     : "text-foreground hover:text-primary"
                 }`}
               >
-                Home
+                {t("layout.nav.home")}
               </Link>
               <Link
                 to="/about/#"
@@ -96,7 +96,7 @@ export function Layout() {
                     : "text-foreground hover:text-primary"
                 }`}
               >
-                About
+                {t("layout.nav.about")}
               </Link>
               <Link
                 to="/team/#"
@@ -106,10 +106,10 @@ export function Layout() {
                     : "text-foreground hover:text-primary"
                 }`}
               >
-                Team
+                {t("layout.nav.team")}
               </Link>
               <select
-                aria-label="Select language"
+                aria-label={t("common.languageSelect")}
                 className="bg-transparent border border-border rounded px-2 py-1 text-sm text-foreground focus:text-primary"
                 value={i18n.language}
                 onChange={handleLanguageChange}
@@ -151,7 +151,7 @@ export function Layout() {
                   }`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  Home
+                  {t("layout.nav.home")}
                 </Link>
                 <Link
                   to="/about"
@@ -162,7 +162,7 @@ export function Layout() {
                   }`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  About
+                  {t("layout.nav.about")}
                 </Link>
                 <Link
                   to="/team"
@@ -173,18 +173,18 @@ export function Layout() {
                   }`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  Team
+                  {t("layout.nav.team")}
                 </Link>
                 <a
                   href="#contact"
                   className="bg-primary text-primary-foreground px-4 py-2.5 rounded-lg text-center"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  Contact Us
+                  {t("layout.nav.contact")}
                 </a>
                 <div className="px-4">
                   <select
-                    aria-label="Select language"
+                    aria-label={t("common.languageSelect")}
                     className="w-full bg-transparent border border-border rounded px-3 py-2 text-sm text-foreground focus:text-primary"
                     value={i18n.language}
                     onChange={handleLanguageChange}
@@ -226,14 +226,15 @@ export function Layout() {
                 </span>
               </div>
               <p className="text-muted-background text-sm leading-relaxed">
-                First Trade Company of Timor-Leste in China. Connecting
-                businesses to global trade opportunities.
+                {t("layout.footer.companyBlurb")}
               </p>
             </div>
 
             {/* Contact Info */}
             <div>
-              <h3 className="font-semibold mb-4">Contact</h3>
+              <h3 className="font-semibold mb-4">
+                {t("layout.footer.contactTitle")}
+              </h3>
               <div className="space-y-2 text-sm text-muted-background">
                 <p>📍 浙江省金华市义乌市福田街道 北下朱国货品牌爆品基地</p>
                 <p>✉️ lafatiklogistic@gmail.com</p>
@@ -242,7 +243,9 @@ export function Layout() {
 
             {/* Social Media */}
             <div>
-              <h3 className="font-semibold mb-4">Follow Us</h3>
+              <h3 className="font-semibold mb-4">
+                {t("layout.footer.followUsTitle")}
+              </h3>
               <div className="flex gap-4">
                 <a
                   href="https://www.instagram.com/lafatiktrade_logistics"
@@ -278,7 +281,7 @@ export function Layout() {
                   className="block text-sm mb-2 text-muted-background"
                   htmlFor="language-switcher-footer"
                 >
-                  Language
+                  {t("common.language")}
                 </label>
                 <select
                   id="language-switcher-footer"
@@ -297,7 +300,7 @@ export function Layout() {
           </div>
 
           <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-background">
-            <p>&copy; 2026 Yiwu Lafatik Trade Co., Ltd. All rights reserved.</p>
+            <p>{t("layout.footer.rights")}</p>
           </div>
         </div>
       </footer>

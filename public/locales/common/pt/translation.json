@@ -1,5 +1,29 @@
 {
 	"common": {
+		"close": "Fechar",
+		"language": "Idioma",
+		"languageSelect": "Selecionar idioma",
+		"carousel": {
+			"previous": "Slide anterior",
+			"next": "Proximo slide",
+			"goToSlide": "Ir para o slide {{index}}"
+		}
+	},
+	"layout": {
+		"nav": {
+			"home": "Inicio",
+			"about": "Sobre",
+			"team": "Equipe",
+			"contact": "Fale Conosco"
+		},
+		"footer": {
+			"companyBlurb": "Primeira empresa de comercio de Timor-Leste na China. Conectando negocios a oportunidades globais de comercio.",
+			"contactTitle": "Contato",
+			"followUsTitle": "Siga-nos",
+			"rights": "© 2026 Yiwu Lafatik Trade Co., Ltd. Todos os direitos reservados."
+		}
+	},
+	"common": {
 		"close": "Fechar"
 	},
 	"home": {

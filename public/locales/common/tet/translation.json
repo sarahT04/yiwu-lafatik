@@ -1,5 +1,29 @@
 {
 	"common": {
+		"close": "Taka",
+		"language": "Lian",
+		"languageSelect": "Hili lian",
+		"carousel": {
+			"previous": "Slide antes",
+			"next": "Slide tuir",
+			"goToSlide": "Ba slide {{index}}"
+		}
+	},
+	"layout": {
+		"nav": {
+			"home": "Uma",
+			"about": "Kona-ba",
+			"team": "Ekipa",
+			"contact": "Kontaktu Ami"
+		},
+		"footer": {
+			"companyBlurb": "Kompanhia komersiu primeiru husi Timor-Leste iha Xina. Konektando biznes ba oportunidade komersiu global.",
+			"contactTitle": "Kontaktu",
+			"followUsTitle": "Tuir Ami",
+			"rights": "© 2026 Yiwu Lafatik Trade Co., Ltd. Direitu hotu rezervadu."
+		}
+	},
+	"common": {
 		"close": "Taka"
 	},
 	"home": {

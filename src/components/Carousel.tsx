@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export type CarouselItem = {
@@ -41,6 +42,7 @@ export function Carousel({
   indicatorInactiveClassName = "bg-white/60",
   renderContent,
 }: CarouselProps) {
+  const { t } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
   const hasMultiple = items.length > 1;
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -104,14 +106,14 @@ export function Carousel({
           <button
             onClick={prevSlide}
             className={`absolute left-4 top-1/2 -translate-y-1/2 ${controlButtonClassName}`}
-            aria-label="Previous slide"
+            aria-label={t("common.carousel.previous")}
           >
             <ChevronLeft className={controlIconClassName} size={controlIconSize} />
           </button>
           <button
             onClick={nextSlide}
             className={`absolute right-4 top-1/2 -translate-y-1/2 ${controlButtonClassName}`}
-            aria-label="Next slide"
+            aria-label={t("common.carousel.next")}
           >
             <ChevronRight className={controlIconClassName} size={controlIconSize} />
           </button>
@@ -127,7 +129,7 @@ export function Carousel({
               className={`${indicatorButtonClassName} ${
                 index === currentIndex ? indicatorActiveClassName : indicatorInactiveClassName
               }`}
-              aria-label={`Go to slide ${index + 1}`}
+              aria-label={t("common.carousel.goToSlide", { index: index + 1 })}
             />
           ))}
         </div>
