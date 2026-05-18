@@ -22,6 +22,7 @@ export function Home() {
   // const [expandedCategory, setExpandedCategory] = useState<string | null>(null);
   const [selectedItem, setSelectedItem] = useState<{
     categoryId: string;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     item: any;
   } | null>(null);
   const heroItems = carouselImages.map((image) => ({
@@ -249,7 +250,7 @@ export function Home() {
                       // }
                       className="w-full bg-white rounded-lg shadow-sm border border-border hover:shadow-md transition-shadow text-center"
                     >
-                      <div className="w-full aspect-[9/16] rounded-t-lg overflow-hidden mb-3">
+                      <div className="w-full aspect-9/16 rounded-t-lg overflow-hidden mb-3">
                         <img
                           src={category.image}
                           alt={t(category.nameKey)}
@@ -355,7 +356,7 @@ export function Home() {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-primary/10 rounded flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-6 h-6 bg-primary/10 rounded flex items-center justify-center shrink-0 mt-1">
                     <div className="w-2 h-2 bg-primary rounded-full" />
                   </div>
                   <div>
@@ -366,7 +367,7 @@ export function Home() {
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-primary/10 rounded flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-6 h-6 bg-primary/10 rounded flex items-center justify-center shrink-0 mt-1">
                     <div className="w-2 h-2 bg-primary rounded-full" />
                   </div>
                   <div className="whitespace-pre-line">
@@ -378,7 +379,7 @@ export function Home() {
                 </div>
               </div>
             </div>
-            <div className="relative h-[400px] rounded-lg overflow-hidden shadow-lg">
+            <div className="relative h-100 rounded-lg overflow-hidden shadow-lg">
               <Carousel
                 items={officeItems}
                 intervalMs={3500}
@@ -449,7 +450,7 @@ export function Home() {
                 key={image.src}
                 className="rounded-lg overflow-hidden shadow-sm border border-border"
               >
-                <div className="aspect-[4/3]">
+                <div className="aspect-4/3">
                   <img
                     src={image.src}
                     alt={image.alt}

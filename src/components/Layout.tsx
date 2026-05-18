@@ -1,6 +1,6 @@
 import { Outlet, Link, useLocation } from "react-router";
 import { Menu, X, Mail, Phone } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "@/assets/logo.png";
 
 export function Layout() {
@@ -8,6 +8,10 @@ export function Layout() {
   const location = useLocation();
 
   const isActive = (path: string) => location.pathname === path;
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }, [location.pathname]);
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
@@ -68,7 +72,7 @@ export function Layout() {
                 Home
               </Link>
               <Link
-                to="/about"
+                to="/about/#"
                 className={`transition-colors ${
                   isActive("/about")
                     ? "text-primary"
@@ -78,7 +82,7 @@ export function Layout() {
                 About
               </Link>
               <Link
-                to="/team"
+                to="/team/#"
                 className={`transition-colors ${
                   isActive("/team")
                     ? "text-primary"
@@ -188,7 +192,7 @@ export function Layout() {
             <div>
               <h3 className="font-semibold mb-4">Contact</h3>
               <div className="space-y-2 text-sm text-muted-background">
-                <p>📍 Yiwu, Zhejiang, China</p>
+                <p>📍 浙江省金华市义乌市福田街道 北下朱国货品牌爆品基地</p>
                 <p>✉️ lafatiklogistic@gmail.com</p>
               </div>
             </div>
