@@ -1,10 +1,284 @@
 {
+	"common": {
+		"close": "Fechar"
+	},
+	"home": {
+		"cta": {
+			"getQuote": "Pedir Orcamento",
+			"ourServices": "Nossos Servicos"
+		},
+		"carousel": [
+			{
+				"alt": "Navio de carga no porto",
+				"title": "Conectando Timor-Leste ao Comercio Global",
+				"subtitle": "Seu parceiro de confianca em logistica e importacao/exportacao"
+			},
+			{
+				"alt": "Contentores de envio",
+				"title": "Solucoes de Logistica Confiaveis",
+				"subtitle": "Envio sem interrupcoes da China para Timor-Leste"
+			},
+			{
+				"alt": "Porto com guindastes",
+				"title": "Primeira Empresa de Comercio de Timor-Leste na China",
+				"subtitle": "Construindo pontes entre nacoes"
+			}
+		],
+		"whoWeAre": {
+			"title": "Quem Somos",
+			"body": "Yiwu Lafatik Trade Co., Ltd e <highlight>a primeira empresa de comercio</highlight> de Timor-Leste estabelecida na China. Somos especializados em conectar empresas em Timor-Leste com fabricantes e fornecedores na China, oferecendo solucoes completas de logistica e comercio. A empresa planeja ativamente negocios de importacao, ajudando varios produtos locais, bens especiais e commodities agricolas provenientes de Timor-Leste a entrar e circular no mercado chines, realizando a circulacao bilateral de comercio entre os dois paises.",
+			"cards": {
+				"reliability": {
+					"title": "Confiabilidade",
+					"body": "Confiada por empresas e agencias governamentais em Timor-Leste"
+				},
+				"globalNetwork": {
+					"title": "Rede Global",
+					"body": "Presenca estrategica tanto na China quanto em Timor-Leste para operacoes sem falhas"
+				}
+			}
+		},
+		"services": {
+			"title": "Nossos Servicos",
+			"subtitle": "Solucoes completas de logistica adaptadas as suas necessidades",
+			"cards": {
+				"importExport": {
+					"title": "Importacao e Exportacao",
+					"body": "Servicos de desembaraco aduaneiro e envio internacional simplificados"
+				},
+				"freightForwarding": {
+					"title": "Frete Internacional",
+					"body": "Solucoes de frete maritimo e aereo para cargas de todos os tamanhos"
+				},
+				"warehousing": {
+					"title": "Armazenagem",
+					"body": "Instalacoes seguras de armazenamento e gestao de inventario"
+				}
+			}
+		},
+		"catalogue": {
+			"title": "Escopos de Negocio",
+			"subtitle": "Industrias principais que atendemos",
+			"requestQuote": "Solicitar Orcamento",
+			"agriculture": {
+				"name": "Equipamentos Agricolas",
+				"items": [
+					{
+						"title": "Tratores e Implementos",
+						"description": "Equipamentos confiaveis para preparo de terra e cultivo"
+					},
+					{
+						"title": "Sistemas de Irrigacao",
+						"description": "Gotejamento, aspersao e solucoes de bomba para irrigacao eficiente"
+					},
+					{
+						"title": "Ferramentas Pos-Colheita",
+						"description": "Secagem, classificacao e suporte de armazenamento para melhores rendimentos"
+					}
+				]
+			},
+			"industrial": {
+				"name": "Maquinarias Industriais",
+				"items": [
+					{
+						"title": "Linhas de Processamento",
+						"description": "Equipamentos para alimentos, materiais e manufatura leve"
+					},
+					{
+						"title": "Ferramentas de Metalurgia",
+						"description": "Maquinas de corte, moldagem e fabricacao"
+					},
+					{
+						"title": "Maquinas de Embalagem",
+						"description": "Embalagem automatizada e rotulagem para linhas de producao"
+					}
+				]
+			},
+			"transportation": {
+				"name": "Veiculos de Transporte",
+				"items": [
+					{
+						"title": "Caminhoes Leves",
+						"description": "Veiculos de entrega regional e ultima milha"
+					},
+					{
+						"title": "Onibus Comerciais",
+						"description": "Transporte de passageiros para rotas urbanas e intermunicipais"
+					},
+					{
+						"title": "Frota Especializada",
+						"description": "Veiculos refrigerados, utilitarios e de servico personalizados"
+					}
+				]
+			},
+			"medicalDevices": {
+				"name": "Dispositivos Medicos",
+				"items": [
+					{
+						"title": "Equipamentos de Diagnostico",
+						"description": "Ultrassom, monitoramento e diagnostico laboratorial"
+					},
+					{
+						"title": "Dispositivos de Cuidado ao Paciente",
+						"description": "Camas, auxilios de mobilidade e itens essenciais hospitalares"
+					},
+					{
+						"title": "Sistemas de Esterilizacao",
+						"description": "Autoclaves e equipamentos de higiene para clinicas"
+					}
+				]
+			},
+			"cleanEnergy": {
+				"name": "Itens de Energia Limpa",
+				"items": [
+					{
+						"title": "Paineis Solares",
+						"description": "Modulos de alta eficiencia para casas e instalacoes"
+					},
+					{
+						"title": "Armazenamento de Energia",
+						"description": "Baterias e inversores para energia estavel"
+					},
+					{
+						"title": "Iluminacao Eficiente",
+						"description": "LED e controles inteligentes para reduzir consumo de energia"
+					}
+				]
+			}
+		},
+		"office": {
+			"title": "Nosso Escritorio",
+			"body": "Operamos a partir de locais estrategicos em Yiwu, China, com 2 armazens em Yiwu e Guangzhou. Nossa presenca na China nos permite fornecer um servico sem paralelo, entendendo profundamente o mercado chines e facilitando operacoes comerciais tranquilas entre as duas nacoes. Nossa equipe de armazem tem mais de 10 anos de experiencia em embalagem, planeja a distribuicao com base nas listas de carga para maximizar o uso do conteiner e pesa cada item e o conteiner completo para atender aos limites de envio.",
+			"locations": {
+				"china": {
+					"title": "Escritorio na China",
+					"body": "Yiwu, Provincia de Zhejiang"
+				},
+				"warehouse": {
+					"title": "Armazem na China",
+					"body": "Yiwu, Provincia de Zhejiang & \nGuangzhou, Provincia de Guangdong"
+				}
+			},
+			"imageAlt": "Porto e logistica"
+		},
+		"government": {
+			"title": "Colaborando com o Governo",
+			"subtitle": "Apoiando iniciativas do setor publico por meio de fornecimento e logistica confiaveis",
+			"images": {
+				"1": {
+					"alt": "Com o Embaixador de Timor Leste em Pequim"
+				},
+				"2": {
+					"alt": "Com o Delegado de Comercio de Timor Leste em Pequim"
+				},
+				"3": {
+					"alt": "Com o Vice da Comunidade dos Paises de Lingua Portuguesa em Macau"
+				},
+				"4": {
+					"alt": "Com o Delegado de Comercio em Macau"
+				}
+			}
+		},
+		"qualityCheck": {
+			"title": "Controle de Qualidade",
+			"body": "Um motivo principal de operarmos na China e inspecionar e verificar a qualidade do produto antes do envio.",
+			"images": [
+				{
+					"alt": "Controle de qualidade em produtos embalados"
+				},
+				{
+					"alt": "Inspecao de amostras de produtos"
+				},
+				{
+					"alt": "Equipe revisando a qualidade do produto"
+				}
+			]
+		},
+		"partners": {
+			"title": "Estrutura Organizacional",
+			"subtitle": "Empresas chinesas da cadeia de suprimentos",
+			"companies": [
+				{
+					"name": "Yiwu Jinjia Supply Chain Co., Ltd",
+					"description": "Logistica internacional na China"
+				},
+				{
+					"name": "Yiwu Lafatik Trade Co., Ltd",
+					"description": "Empresa de comercio de Timor Leste na China"
+				},
+				{
+					"name": "Fortuna Trade",
+					"description": "Logistica internacional; consignatario e receptor na China"
+				},
+				{
+					"name": "Tiange International Logistics Co., Ltd",
+					"description": "Logistica internacional na China"
+				}
+			]
+		}
+	},
+	"about": {
+		"hero": {
+			"title": "Sobre Nos",
+			"subtitle": "Yiwu Lafatik Trade Co., Ltd e pioneira nas relacoes comerciais entre Timor-Leste e China, comprometida em facilitar comercio internacional e solucoes de logistica sem interrupcoes."
+		},
+		"whoWeAre": {
+			"title": "Quem Somos",
+			"paragraphs": [
+				"Estabelecida como a primeira empresa de comercio de Timor-Leste na China, Yiwu Lafatik Trade Co., Ltd representa um marco historico nas relacoes comerciais bilaterais entre nossas nacoes. Estamos sediados em Yiwu, o maior mercado atacadista do mundo, com operacoes que se estendem a Guangzhou e tambem a Timor-Leste.",
+				"Nossa empresa foi fundada no principio de que parcerias comerciais fortes podem transformar economias e criar oportunidades para empresas de todos os tamanhos. Somos especializados em conectar pequenas e medias empresas (UMKM) em Timor-Leste com fabricantes e fornecedores na China, enquanto tambem atendemos grandes corporacoes e agencias governamentais.",
+				"Com profundo entendimento dos mercados chines e timorense, navegamos por nuances culturais, barreiras linguisticas e requisitos regulatorios para garantir transacoes suaves e entregas pontuais. Nossa equipe reune experiencia em comercio internacional, logistica, desembaraco aduaneiro e gestao de cadeia de suprimentos."
+			]
+		},
+		"vision": {
+			"title": "Nossa Visao",
+			"body": "Tornar-se o principal portal de comercio internacional e logistica conectando Timor-Leste a ASEAN e ao mundo, promovendo comercio global justo e diversificacao da economia de Timor-Leste"
+		},
+		"mission": {
+			"title": "Nossa Missao",
+			"body": "Construir uma forte ponte comercial entre China e Timor-Leste, apoiando o crescimento economico por meio de logistica profissional, servicos confiaveis de importacao e exportacao, especialmente para as PME's"
+		},
+		"values": {
+			"title": "Nossos Valores Centrais",
+			"items": {
+				"integrity": {
+					"title": "Integridade",
+					"body": "Operar com honestidade, responsabilidade e praticas eticas"
+				},
+				"professionalism": {
+					"title": "Profissionalismo",
+					"body": "Entregar servico confiavel com respeito e disciplina"
+				},
+				"innovation": {
+					"title": "Inovacao",
+					"body": "Melhorar continuamente como servimos nossos parceiros"
+				},
+				"commitmentToCountry": {
+					"title": "Compromisso com o Pais",
+					"body": "Apoiar Timor-Leste por meio de comercio responsavel e crescimento"
+				}
+			}
+		}
+	},
+	"team": {
+		"hero": {
+			"title": "Nossa Equipe",
+			"subtitle": "Conheca os profissionais dedicados que impulsionam nossa missao de conectar Timor-Leste ao comercio global."
+		},
+		"members": [
+			{
+				"name": "Francisca Freitas Sang (Right) & \nConidia Gabriela da Silva (Left)",
+				"role": "Diretora Executiva (CEO) e Gerente Geral",
+				"bio": "Liderando a Yiwu Lafatik Trade Co., Ltd com mais de 5 anos de experiencia em comercio internacional e desenvolvimento de negocios."
+			}
+		]
+	},
 	"notFound": {
 		"label": "Erro 404",
-		"title": "Pagina nao encontrada",
+		"title": "Pagina Nao Encontrada",
 		"subtitle": "Esta pagina foi movida, desapareceu ou nunca existiu.",
-		"body": "Verifique o endereco ou volte para a pagina inicial.",
-		"homeCta": "Voltar para inicio",
+		"body": "Verifique o endereco ou volte para a pagina inicial para continuar.",
+		"homeCta": "Voltar para Inicio",
 		"backCta": "Voltar"
 	}
 }

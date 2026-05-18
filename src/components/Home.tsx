@@ -254,8 +254,8 @@ export function Home() {
                         <img
                           src={category.image}
                           alt={t(category.nameKey)}
+                          loading="eager"
                           className="w-full h-full object-cover"
-                          loading="lazy"
                         />
                       </div>
                       <div className="flex items-center justify-center gap-2 pt-1 pb-3">

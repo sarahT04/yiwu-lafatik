@@ -1,9 +1,283 @@
 {
+	"common": {
+		"close": "Taka"
+	},
+	"home": {
+		"cta": {
+			"getQuote": "Husu Orsamentu",
+			"ourServices": "Servisu Sira Ami"
+		},
+		"carousel": [
+			{
+				"alt": "Kapal karga iha portu",
+				"title": "Konektando Timor-Leste ba Komersiu Global",
+				"subtitle": "Ita nia parseiru fiar iha logistika no importasaun/exportasaun"
+			},
+			{
+				"alt": "Kontainer envia",
+				"title": "Solusaun Logistika Konfiavel",
+				"subtitle": "Enviu la iha interrupsaun husi Xina ba Timor-Leste"
+			},
+			{
+				"alt": "Portu ho grua",
+				"title": "Kompanhia Komersiu Primeiru Timor-Leste iha Xina",
+				"subtitle": "Harii ponte entre nasaun sira"
+			}
+		],
+		"whoWeAre": {
+			"title": "Ita As",
+			"body": "Yiwu Lafatik Trade Co., Ltd mak <highlight>kompanhia komersiu primeiru</highlight> husi Timor-Leste ne'ebe estabelese iha Xina. Ami espesializa kona-ba konekta biznes iha Timor-Leste ho fabrikante no forneseedor iha Xina, fornese solusaun logistika no komersiu kompletu. Kompanhia planeia aktivu biznes importasaun, ajuda produtu lokal, sasaan espesial no komodidade agricola husi Timor-Leste atu tama no sirkula iha merkadu Xina, realizando sirkulasaun komersiu bilateral entre nasaun rua.",
+			"cards": {
+				"reliability": {
+					"title": "Konfiansa",
+					"body": "Fiar husi biznes no ajensia governu iha Timor-Leste"
+				},
+				"globalNetwork": {
+					"title": "Rede Global",
+					"body": "Presensa estrategika iha Xina no Timor-Leste ba operasaun la iha interrupsaun"
+				}
+			}
+		},
+		"services": {
+			"title": "Servisu Sira Ami",
+			"subtitle": "Solusaun logistika kompletu ne'ebe halo tuir ita nia nesesidade",
+			"cards": {
+				"importExport": {
+					"title": "Importasaun no Exportasaun",
+					"body": "Servisu klierensa alfandega no enviu internasiona ne'ebe la komplika"
+				},
+				"freightForwarding": {
+					"title": "Frete Forwarding",
+					"body": "Solusaun frete tasi no lalehan ba karga kiik ka boot"
+				},
+				"warehousing": {
+					"title": "Armazenamentu",
+					"body": "Fasilidade armazenamentu segur no jestaun inventariu"
+				}
+			}
+		},
+		"catalogue": {
+			"title": "Eskopu Negosiu",
+			"subtitle": "Industrias prinsipal ne'ebe ami servisu",
+			"requestQuote": "Husu Orsamentu",
+			"agriculture": {
+				"name": "Ekipamentu Agricola",
+				"items": [
+					{
+						"title": "Trator no Implementu",
+						"description": "Ekipamentu konfiavel ba prepara rai no serbisu kultura"
+					},
+					{
+						"title": "Sistema Irrigasaun",
+						"description": "Drip, sprinkler, no solusaun bomba ba irigasaun efisiente"
+					},
+					{
+						"title": "Ferramenta Pos-Kolheita",
+						"description": "Secagem, seleksaun, no apoiu armazenamentu ba rendimentu diak liu"
+					}
+				]
+			},
+			"industrial": {
+				"name": "Maquinaria Industrial",
+				"items": [
+					{
+						"title": "Linha Prosesamentu",
+						"description": "Ekipamentu ba ai-hahan, material, no manufatura ringan"
+					},
+					{
+						"title": "Ferramenta Metalurgia",
+						"description": "Maquina korta, forma, no fabrikasaun"
+					},
+					{
+						"title": "Maquina Embalajen",
+						"description": "Embalajen automatizadu no rotulajen ba linha produksaun"
+					}
+				]
+			},
+			"transportation": {
+				"name": "Veikulo Transportasaun",
+				"items": [
+					{
+						"title": "Kamiaun Leve",
+						"description": "Veikulo ba entrega ultima milha no entrega rejional"
+					},
+					{
+						"title": "Autokaru Komersial",
+						"description": "Transportasaun pasajeru ba rota urbana no inter-sidade"
+					},
+					{
+						"title": "Frota Espesializada",
+						"description": "Veikulo refrigeradu, utilitariu, no servisu espesial"
+					}
+				]
+			},
+			"medicalDevices": {
+				"name": "Dispositivu Mediku",
+				"items": [
+					{
+						"title": "Ekipamentu Diagnostiku",
+						"description": "Ultrasson, monitoramentu, no diagnostiku laboratoriu"
+					},
+					{
+						"title": "Dispositivu Kuidado Pasiente",
+						"description": "Kama, ajuda mobilidade, no sasaan essencial iha ospital"
+					},
+					{
+						"title": "Sistema Esterilizasaun",
+						"description": "Autoclave no ekipamentu higiene ba klinika"
+					}
+				]
+			},
+			"cleanEnergy": {
+				"name": "Sasaan Energia Limpa",
+				"items": [
+					{
+						"title": "Painel Solar",
+						"description": "Modulu efisiente ba uma no instalasaun"
+					},
+					{
+						"title": "Armazenamentu Energia",
+						"description": "Bateria no inversor ba energia estavel"
+					},
+					{
+						"title": "Iluminasaun Eficiente",
+						"description": "LED no kontrolu intelijente atu hamenus uza energia"
+					}
+				]
+			}
+		},
+		"office": {
+			"title": "Escritorio Ami",
+			"body": "Ami opera husi fatin estrategiku iha Yiwu, Xina, ho 2 armazem iha Yiwu no Guangzhou. Ami nia presensa iha Xina permite ami atu fornese servisu diak liu, kompriende merkadu Xina ho klean no fasilita operasaun komersiu ne'ebe la iha obstakulu entre nasaun rua. Ami nia ekipa armazem iha esperiensia embalajen liu tinan 10, planeia distribuisaun husi lista karga atu maximiza uza kontainer, no pesa sasaan ida-idak no kontainer tomak atu tuir limite enviu.",
+			"locations": {
+				"china": {
+					"title": "Escritorio Xina",
+					"body": "Yiwu, Provincia Zhejiang"
+				},
+				"warehouse": {
+					"title": "Armazem Xina",
+					"body": "Yiwu, Provincia Zhejiang & \nGuangzhou, Provincia Guangdong"
+				}
+			},
+			"imageAlt": "Portu no logistika"
+		},
+		"government": {
+			"title": "Kollabora ho Governu",
+			"subtitle": "Suporta iniciativa setór publiku liu husi fornese no logistika konfiavel",
+			"images": {
+				"1": {
+					"alt": "Hametin ho Embaixador Timor Leste iha Beijing"
+				},
+				"2": {
+					"alt": "Hametin ho Delegadu Komersiu Timor Leste iha Beijing"
+				},
+				"3": {
+					"alt": "Hametin ho Deputadu Komunidade Paises Lingua Portuguesa iha Macao"
+				},
+				"4": {
+					"alt": "Hametin ho Delegadu Komersiu iha Macao"
+				}
+			}
+		},
+		"qualityCheck": {
+			"title": "Verifikasaun Kalidade",
+			"body": "Razao importante ida ne'ebe ami opera iha Xina mak atu inspeksaun no verifica kalidade produtu antes enviu.",
+			"images": [
+				{
+					"alt": "Verifikasaun kalidade ba sasaan ne'ebe embalajen"
+				},
+				{
+					"alt": "Inspekasaun amostra produtu"
+				},
+				{
+					"alt": "Ekipa ne'ebe reviza kalidade produtu"
+				}
+			]
+		},
+		"partners": {
+			"title": "Estrutura Organizasional",
+			"subtitle": "Kompanhia cadeia suprimentu Xina",
+			"companies": [
+				{
+					"name": "Yiwu Jinjia Supply Chain Co., Ltd",
+					"description": "Logistika internasiona iha Xina"
+				},
+				{
+					"name": "Yiwu Lafatik Trade Co., Ltd",
+					"description": "Kompanhia komersiu Timor Leste iha Xina"
+				},
+				{
+					"name": "Fortuna Trade",
+					"description": "Logistika internasiona; konsignatariu no reseptor iha Xina"
+				},
+				{
+					"name": "Tiange International Logistics Co., Ltd",
+					"description": "Logistika internasiona iha Xina"
+				}
+			]
+		}
+	},
+	"about": {
+		"hero": {
+			"title": "Kona-ba Ami",
+			"subtitle": "Yiwu Lafatik Trade Co., Ltd mak pioneru relasaun komersiu entre Timor-Leste no Xina, komprometidu atu fasilita komersiu internasiona no solusaun logistika ne'ebe la iha interrupsaun."
+		},
+		"whoWeAre": {
+			"title": "Ita As",
+			"paragraphs": [
+				"Estabelese hanesan kompanhia komersiu primeiru husi Timor-Leste iha Xina, Yiwu Lafatik Trade Co., Ltd reprezenta marka historiku iha relasaun komersiu bilateral entre nasaun sira. Ami iha sede iha Yiwu, merkadu atacadu boot liu iha mundu, ho operasaun ne'ebe estende ba Guangzhou no mos ba Timor-Leste.",
+				"Kompanhia ami establishe ho prinsipiu katak parcerias komersiu forte bele transforma ekonomia no kria oportunidade ba bisnis hotu. Ami espesializa kona-ba konekta pequenas no medias empresas (UMKM) iha Timor-Leste ho fabrikante no forneseedor iha Xina, no mos servisu ba korporasaun boot no ajensia governu.",
+				"Ho kompriensaun klean kona-ba merkadu Xina no Timor, ami halo navigasaun ba nuance kultura, barreira lingua, no requerimentu regulatorio atu garante transaksaun diak no entrega tempu. Ami nia ekipa reune perisia iha komersiu internasiona, logistika, klierensa alfandega, no jestaun cadeia suprimentu."
+			]
+		},
+		"vision": {
+			"title": "Vizaun Ami",
+			"body": "Torna hanesan porta prinsipal komersiu internasiona no logistika ne'ebe konekta Timor-Leste ho ASEAN no mundu, promove komersiu global justu no diversifikasaun ekonomia Timor-Leste"
+		},
+		"mission": {
+			"title": "Misaun Ami",
+			"body": "Harii ponte komersiu forte entre Xina no Timor-Leste, suporta kresimentu ekonomiku liu husi logistika profisional, servisu importasaun no exportasaun konfiavel, liuliu ba SME's"
+		},
+		"values": {
+			"title": "Valoru Prinsipal Ami",
+			"items": {
+				"integrity": {
+					"title": "Integridade",
+					"body": "Halao ho honestidade, responsabilidade, no praktika etika"
+				},
+				"professionalism": {
+					"title": "Profisionalismu",
+					"body": "Fornese servisu konfiavel ho respeitu no disciplina"
+				},
+				"innovation": {
+					"title": "Inovasaun",
+					"body": "Kontinua melhora oinsaa ami servisu ba parseiru sira"
+				},
+				"commitmentToCountry": {
+					"title": "Komprimisu ba Pais",
+					"body": "Suporta Timor-Leste liu husi komersiu responsavel no kresimentu"
+				}
+			}
+		}
+	},
+	"team": {
+		"hero": {
+			"title": "Ekipa Ami",
+			"subtitle": "Hasoru profesionais dedikadu ne'ebe duni ami nia misaun atu konekta Timor-Leste ba komersiu global."
+		},
+		"members": [
+			{
+				"name": "Francisca Freitas Sang (Right) & \nConidia Gabriela da Silva (Left)",
+				"role": "Diretora Ekzekutiva (CEO) no Jerente Jeral",
+				"bio": "Lidera Yiwu Lafatik Trade Co., Ltd ho esperiensia liu tinan 5 iha komersiu internasiona no dezenvolvimentu negosiu."
+			}
+		]
+	},
 	"notFound": {
 		"label": "Erru 404",
 		"title": "Pagina la hetan",
 		"subtitle": "Pagina ida ne'e muda, lakon, ka la iha.",
-		"body": "Haree enderesu ka fila ba pajina prinsipiu.",
+		"body": "Haree enderesu ka fila ba pajina prinsipiu atu kontinua.",
 		"homeCta": "Fila ba Uma",
 		"backCta": "Fila fali"
 	}
