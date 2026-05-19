@@ -78,19 +78,19 @@ const governmentImages: readonly [Image, Image, Image, Image] = [
 
 const carouselImages = [
   {
-    url: "https://images.unsplash.com/photo-1726315185844-b4cb8e95cab3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920",
+    url: "https://ik.imagekit.io/yiwulafatik/carousel/1.jpg",
     altKey: "home.carousel.0.alt",
     titleKey: "home.carousel.0.title",
     subtitleKey: "home.carousel.0.subtitle"
   },
   {
-    url: "https://images.unsplash.com/photo-1606964212858-c215029db704?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920",
+    url: "https://ik.imagekit.io/yiwulafatik/carousel/2.jpg",
     altKey: "home.carousel.1.alt",
     titleKey: "home.carousel.1.title",
     subtitleKey: "home.carousel.1.subtitle"
   },
   {
-    url: "https://images.unsplash.com/photo-1771709403781-42d34964f6ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920",
+    url: "https://ik.imagekit.io/yiwulafatik/carousel/3.jpg",
     altKey: "home.carousel.2.alt",
     titleKey: "home.carousel.2.title",
     subtitleKey: "home.carousel.2.subtitle"
@@ -136,7 +136,7 @@ const catalogueData = [
   {
     id: "agriculture",
     nameKey: "home.catalogue.agriculture.name",
-    image: "https://images.unsplash.com/photo-1695566775442-899595605ac5",
+    image: "https://ik.imagekit.io/yiwulafatik/catalogue/agriculture.jpg",
     items: [
       { id: 1, titleKey: "home.catalogue.agriculture.items.0.title", descriptionKey: "home.catalogue.agriculture.items.0.description", image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400" },
       { id: 2, titleKey: "home.catalogue.agriculture.items.1.title", descriptionKey: "home.catalogue.agriculture.items.1.description", image: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400" },
@@ -146,7 +146,7 @@ const catalogueData = [
   {
     id: "industrial",
     nameKey: "home.catalogue.industrial.name",
-    image: "https://images.unsplash.com/photo-1647427060118-4911c9821b82",
+    image: "https://ik.imagekit.io/yiwulafatik/catalogue/industrial.jpg",
     items: [
       { id: 1, titleKey: "home.catalogue.industrial.items.0.title", descriptionKey: "home.catalogue.industrial.items.0.description", image: "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?w=400" },
       { id: 2, titleKey: "home.catalogue.industrial.items.1.title", descriptionKey: "home.catalogue.industrial.items.1.description", image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=400" },
@@ -156,7 +156,7 @@ const catalogueData = [
   {
     id: "transportation",
     nameKey: "home.catalogue.transportation.name",
-    image: "https://images.unsplash.com/photo-1605705658744-45f0fe8f9663",
+    image: "https://ik.imagekit.io/yiwulafatik/catalogue/transportation.jpg",
     items: [
       { id: 1, titleKey: "home.catalogue.transportation.items.0.title", descriptionKey: "home.catalogue.transportation.items.0.description", image: "https://images.unsplash.com/photo-1505839673365-e3971f8d9184?w=400" },
       { id: 2, titleKey: "home.catalogue.transportation.items.1.title", descriptionKey: "home.catalogue.transportation.items.1.description", image: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400" },
@@ -166,7 +166,7 @@ const catalogueData = [
   {
     id: "medical-devices",
     nameKey: "home.catalogue.medicalDevices.name",
-    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69",
+    image: "https://ik.imagekit.io/yiwulafatik/catalogue/medical.jpg",
     items: [
       { id: 1, titleKey: "home.catalogue.medicalDevices.items.0.title", descriptionKey: "home.catalogue.medicalDevices.items.0.description", image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400" },
       { id: 2, titleKey: "home.catalogue.medicalDevices.items.1.title", descriptionKey: "home.catalogue.medicalDevices.items.1.description", image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=400" },
@@ -176,7 +176,7 @@ const catalogueData = [
   {
     id: "clean-energy",
     nameKey: "home.catalogue.cleanEnergy.name",
-    image: "https://images.unsplash.com/photo-1595437193398-f24279553f4f",
+    image: "https://ik.imagekit.io/yiwulafatik/catalogue/clean.jpg",
     items: [
       { id: 1, titleKey: "home.catalogue.cleanEnergy.items.0.title", descriptionKey: "home.catalogue.cleanEnergy.items.0.description", image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=400" },
       { id: 2, titleKey: "home.catalogue.cleanEnergy.items.1.title", descriptionKey: "home.catalogue.cleanEnergy.items.1.description", image: "https://images.unsplash.com/photo-1509395176047-4a66953fd231?w=400" },
